@@ -2,6 +2,7 @@ ls
 
 <-l> long <-a> all
 
+# Takes you to home directory.
 cd
 . -current directory
 .. -up one level
