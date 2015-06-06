@@ -1,0 +1,22 @@
+git init #turns pwd into repository
+git init <dir name>
+
+git status
+git add <file> #adds file to staging area
+git commit <-a (all)> <-m 'messgae'>
+
+git branch #show branches
+git branch <new branch name>
+git branch -d <branch to be deleted>
+
+git checkout <branch>
+git checkout <commit>
+
+git merge <branch to be merged to current branch>
+
+git remote add origin <server>
+
+git push <server> <branch>
+ex: git push origin master
+
+git clone <url or path>

@@ -1,0 +1,87 @@
+ls 
+
+<-l> long <-a> all
+
+cd
+. -current directory
+.. -up one level
+
+mv <-r> -recursive (use for directories)
+cp <-r>
+~ -home dir
+!! -previous command
+pwd -present working directory
+
+cat
+
+more
+less
+
+pico
+nano
+
+sudo
+
+chmod
+chown
+adduser
+su
+
+ps <aux> (all)
+top
+jobs
+fg
+& -run in background
+term
+ctrl-z -stop
+ctrl-c -term
+kill (-TERM, -SIGTERM; -KILL, -SIGKILL, -9; -STOP)
+
+grep i.e. 'ps aux | grep "XXXX"'
+
+env
+$HOME
+echo $HOME
+cd $HOME
+echo $PS1
+PS1="\u \w C:\>"
+
+
+bash
+fish
+sh
+
+exit
+
+export X=""
+export PATH="/home/tim:$PATH"
+which echo
+
+~/.bashrc
+
+find -name
+grep
+ctrl-D 'exit'
+
+man -manual
+
+|
+
+<
+>
+>> -append
+
+2> -standard error
+2> /dev/null
+
+tar -xvf
+
+curl -O
+
+./configure
+make
+sudo make install
+
+sudo apt-get update
+
+curl -fsSL <code or git.io url> | 
